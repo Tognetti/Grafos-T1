@@ -1,0 +1,5 @@
+graph recomendacoes {
+	edge [weight=0];
+	c2 -- pa [key=c2pa,
+	weight=1];
+}

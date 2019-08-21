@@ -1,0 +1,27 @@
+graph compras{
+	node [tipo=c color=blue]
+	adolfo
+	lucas
+	pedro
+	joao
+
+	node [tipo=p color=red]
+	passatempo
+	negrito
+	oreo
+	calypso
+	bono
+	clubsocial
+
+	adolfo -- passatempo
+	adolfo -- negrito
+	adolfo -- oreo
+	adolfo -- calypso
+	lucas -- oreo
+	lucas -- bono
+	lucas -- negrito
+	pedro -- clubsocial
+	pedro -- oreo
+	joao -- calypso
+	joao -- clubsocial
+}
